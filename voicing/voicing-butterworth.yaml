@@ -1,0 +1,89 @@
+---
+devices:
+  samplerate: 44100
+  chunksize: 8192
+  capture:
+    type: CoreAudio
+    channels: 2
+    device: "BlackHole 2ch"
+    format: FLOAT32LE
+  playback:
+    type: CoreAudio
+    channels: 2
+    device: "Built-in Output"
+    #format: FLOAT32LE
+    format: S16LE
+
+mixers:
+  mono:
+    channels:
+      in: 2
+      out: 2
+    mapping:
+      - dest: 0
+        sources:
+          - channel: 0
+            gain: -9
+            inverted: false
+          - channel: 1
+            gain: -9
+            inverted: false
+      - dest: 1
+        sources:
+          - channel: 0
+            gain: -9
+            inverted: false
+          - channel: 1
+            gain: -9
+            inverted: false
+
+filters:
+  LR_bass_protection:
+    type: BiquadCombo
+    parameters:
+      type: ButterworthHighpass
+      freq: 45
+      order: 8
+  LR_highpass_tweeter:
+    type: BiquadCombo
+    parameters:
+      type: ButterworthHighpass
+      freq: 2500
+      order: 2
+  LR_lowpass_bass:
+    type: BiquadCombo
+    parameters:
+      type: ButterworthLowpass
+      freq: 2500
+      order: 2
+  LS_bass_boost:
+    type: Biquad
+    parameters:
+      type: Lowshelf
+      freq: 150
+      gain: 6.0
+      slope: 6
+  tweeter_gain:
+    type: Gain
+    parameters:
+      gain: -2.5
+      inverted: false
+      mute: false
+      
+pipeline:
+  - type: Mixer
+    name: mono
+  - type: Filter
+    channel: 0
+    names:
+#      - LS_bass_boost
+#      - LR_bass_protection
+      - LR_lowpass_bass
+  - type: Filter
+    channel: 1
+    names:
+      - tweeter_gain
+      - LR_highpass_tweeter
+  
+      
+  

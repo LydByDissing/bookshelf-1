@@ -1,0 +1,101 @@
+---
+devices:
+  samplerate: 44100
+  chunksize: 8192
+  capture:
+    type: CoreAudio
+    channels: 2
+    device: "BlackHole 2ch"
+    format: FLOAT32LE
+  playback:
+    type: CoreAudio
+    channels: 2
+    device: "Built-in Output"
+    #format: FLOAT32LE
+    format: S16LE
+
+mixers:
+  mono:
+    channels:
+      in: 2
+      out: 2
+    mapping:
+      - dest: 0
+        sources:
+          - channel: 0
+            gain: -6
+            inverted: false
+          - channel: 1
+            gain: -6
+            inverted: false
+      - dest: 1
+        sources:
+          - channel: 0
+            gain: -6
+            inverted: false
+          - channel: 1
+            gain: -6
+            inverted: false
+
+filters:
+  LR_bass_protection:
+    type: BiquadCombo
+    parameters:
+      type: LinkwitzRileyHighpass
+      freq: 45
+      order: 8
+  LR_highpass_tweeter:
+    type: BiquadCombo
+    parameters:
+      type: LinkwitzRileyHighpass
+      freq: 2200
+      order: 2
+  LR_lowpass_bass_1:
+    type: BiquadCombo
+    parameters:
+      type: LinkwitzRileyLowpass
+      freq: 3500
+      order: 2
+#  LR_lowpass_bass_2:
+#    type: BiquadCombo
+#    parameters:
+#      type: LinkwitzRileyLowpass
+#      freq: 4000
+#      order: 2
+  hf_notch_woofer:
+    type: Biquad
+    parameters:
+      type: Notch
+      freq: 5200
+      gain: -6
+      bandwidth: 4
+  LS_bass_boost:
+    type: Biquad
+    parameters:
+      type: Lowshelf
+      freq: 150
+      gain: 6.0
+      slope: 4
+  tweeter_gain:
+    type: Gain
+    parameters:
+      gain: -1
+      inverted: false
+      mute: false
+      
+pipeline:
+  - type: Mixer
+    name: mono
+  - type: Filter
+    channel: 0
+    names:
+      - LR_lowpass_bass_1
+      - hf_notch_woofer
+      #- LS_bass_boost
+      - LR_bass_protection
+  - type: Filter
+    channel: 1
+    names:
+      - tweeter_gain
+      - LR_highpass_tweeter
+  
