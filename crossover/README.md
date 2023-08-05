@@ -1,6 +1,6 @@
 # Crossover
 
-The crossover have been simulated and modelled in XSim. The [XSim project file]](2-way_LR_eries.dxo) contains the filter simulation.
+The crossover have been simulated and modelled in XSim. The [XSim project file](2-way_LR_eries.dxo) contains the filter simulation.
 The measurements used doesn't include impendance measurements.
 
 We are going for a crossover frequence of around 2500Hz. This to keep a reasonable wide dispersion.
