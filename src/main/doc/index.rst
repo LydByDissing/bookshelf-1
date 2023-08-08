@@ -3,9 +3,9 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-#######################################
-Documentation - Bookshelf 1
-#######################################
+###########
+Bookshelf 1
+###########
 
 This is a simply bookshelf speaker, based on a COAX driver from SB Acoustics.
 The cabinet are a bass reflex design; which helps to increase the bass response.
@@ -14,7 +14,10 @@ The cabinet are a bass reflex design; which helps to increase the bass response.
   :caption: Documentation Sections
   :maxdepth: 1
 
+  cabinet
   crossover
+  contributing
+  license
 
 .. Indices and tables
    ==================
