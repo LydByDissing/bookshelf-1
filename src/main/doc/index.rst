@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 #######################################
-Welcome to Bookshelf 1's documentation!
+Documentation - Bookshelf 1
 #######################################
 
 This is a simply bookshelf speaker, based on a COAX driver from SB Acoustics.
@@ -16,7 +16,7 @@ The cabinet are a bass reflex design; which helps to increase the bass response.
 
   crossover
 
-..Indices and tables
+.. Indices and tables
    ==================
 
    * :ref:`genindex`
