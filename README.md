@@ -26,7 +26,3 @@ An initial crossover have been designed, based on the captured measurements. I'm
 ![2nd order series crossover filter](crossover/crossover.jpg)
 
 The currently simulated results of the speaker + filter looks like this. This result will need to be confirmed by a measurement once the components have arrived.
-
-Simulation looks like this. Descent first result, but I think it can be approved upon.
-
-![Simulation result of the crossover filter above](crossover/frquency%20response.jpg)
