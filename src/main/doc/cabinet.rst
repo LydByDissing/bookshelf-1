@@ -4,7 +4,7 @@ Cabient design
 The speaker cabinet are designed as a bass reflex design, to try to increase the bass extension. As this is a fairly small form factor, the port has to be rather long.
 
 Cabinet design
-**************
+==============
 
 We are going for a small box with this project. It is a bookshelf speaker after all. Around 6l of internal cabient volume.
 It will be built of 12mm MDF or similar material.
@@ -19,7 +19,7 @@ The simulation looks like this, giving us a -6dB output level at the port tuning
    :alt: Tuning of the reflex port and box
 
 Port design
-***********
+===========
 
 With this port we are trying to tune it as low as the box will allow us. As seen above this gets us to around 53Hz. This tuning frequency requires a rather long port, as this is a small box.
 
@@ -32,6 +32,6 @@ To make the port fit inside the cabinet -- and avoiding a second bend -- it also
 We are trying to mitigate/limit these effects by adding a flare to each end of the port slot.
 
 Downloads
-*********
+=========
 
 * Download the SpeakerSim project in .ssim format :download:`bookshelf.ssim <../../../bookshelf.ssim>`.

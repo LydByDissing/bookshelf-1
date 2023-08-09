@@ -16,7 +16,7 @@ release = 'v0.1'
 
 extensions = [
     'rst2pdf.pdfbuilder',
-    'sphinx_charts.charts',
+    #'sphinx_charts.charts',
     'sphinx.ext.todo',
     'sphinx.ext.autosectionlabel',
     'sphinx-favicon',

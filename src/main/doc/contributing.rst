@@ -1,5 +1,3 @@
-.. _contribution guideline:
-
 Contribution Guideline
 ######################
 
