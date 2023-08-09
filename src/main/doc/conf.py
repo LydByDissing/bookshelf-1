@@ -26,7 +26,7 @@ extensions = [
     'sphinxemoji.sphinxemoji',
     'sphinx_last_updated_by_git',
     #'sphinx_github_changelog',
-    'sphinx_ext_substitution',
+    #'sphinx_ext_substitution',
 ]
 
 templates_path = ['_templates']
