@@ -17,15 +17,15 @@ release = 'v0.1'
 extensions = [
     'rst2pdf.pdfbuilder',
     #'sphinx_charts.charts',
-    'sphinx.ext.todo',
+    #'sphinx.ext.todo',
     'sphinx.ext.autosectionlabel',
-    'sphinx-favicon',
-    'sphinxcontrib.youtube',
+    #'sphinx-favicon',
+    #'sphinxcontrib.youtube',
     'sphinx_panels',
     'myst_parser',
     'sphinxemoji.sphinxemoji',
     'sphinx_last_updated_by_git',
-    'sphinx_github_changelog',
+    #'sphinx_github_changelog',
     'sphinx_ext_substitution',
 ]
 
