@@ -67,7 +67,7 @@ html_theme_options = {
     # If True, show hidden TOC entries
     'globaltoc_includehidden': False,
 }
-#html_logo = '_static/logo.svg'
+html_logo = '_static/logo.svg'
 html_static_path = ['_static']
 html_sidebars = {
     "**": ["logo-text.html", "globaltoc.html", "localtoc.html", "searchbox.html"]

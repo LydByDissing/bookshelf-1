@@ -1,6 +1,12 @@
+![Bookshelf 1 a Lyd by Dissing project](src/main/doc/_static/logo.svg)
 # Bookshelf 1
 
 This is a simply bookshelf speaker, based on a COAX driver from SB Acoustics. The cabinet are a bass reflex cabinet to increase the bass response.
+
+## License
+This project and all it's work are licensed under the [CERN Open Hardware Licence Version 2](https://ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2) license.
+
+[![Documentation Status](https://github.com/LydByDissing/bookshelf-1/actions/workflows/github-pages.yaml/badge.svg)](https://github.com/LydByDissing/bookshelf-1/deployments/github-pages)
 
 ## Design goals
 
