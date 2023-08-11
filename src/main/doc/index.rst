@@ -10,6 +10,9 @@ Bookshelf 1
 This is a simply bookshelf speaker, based on a COAX driver from SB Acoustics.
 The cabinet are a bass reflex design; which helps to increase the bass response.
 
+.. image:: _static/speaker-front.png
+
+
 .. toctree::
   :caption: Documentation Sections
   :maxdepth: 1

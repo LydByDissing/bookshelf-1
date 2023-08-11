@@ -11,6 +11,8 @@ It will be built of 12mm MDF or similar material.
 
 The baffle will be constructed as a sandwich of two layers. So 24mm in thickness.
 
+.. image:: _static/speaker-back.png
+
 We have used an open source project called `SpeakerSim <https://lightbit.gitlab.io/file/>`_ for the simulations. The project file can be downloaded below.
 
 The simulation looks like this, giving us a -6dB output level at the port tuning frequency.

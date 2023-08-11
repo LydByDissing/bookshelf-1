@@ -4,6 +4,8 @@
 
 This is a simply bookshelf speaker, based on a COAX driver from SB Acoustics. The cabinet are a bass reflex cabinet to increase the bass response.
 
+![Bookshelf 1 front view](src/main/doc/_static/speaker-front.png)
+
 ## License
 This project and all it's work are licensed under the [CERN Open Hardware Licence Version 2](https://ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2) license.
 
