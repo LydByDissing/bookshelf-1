@@ -21,6 +21,7 @@ The cabinet are a bass reflex design; which helps to increase the bass response.
   crossover
   contributing
   license
+  changelog
 
 .. Indices and tables
    ==================

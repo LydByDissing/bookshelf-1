@@ -12,6 +12,8 @@ copyright = '2023, Lyd by Dissing ApS'
 author = 'Tue Dissing'
 release = 'v0.1'
 
+
+
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
@@ -26,7 +28,7 @@ extensions = [
     'myst_parser',
     'sphinxemoji.sphinxemoji',
     'sphinx_last_updated_by_git',
-    #'sphinx_github_changelog',
+    'sphinx_github_changelog',
     #'sphinx_ext_substitution',
 ]
 
