@@ -3,6 +3,7 @@
 # For the full list of built-in configuration values, see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
+
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
@@ -27,6 +28,8 @@ extensions = [
     'sphinx_last_updated_by_git',
     #'sphinx_github_changelog',
     #'sphinx_ext_substitution',
+    "sphinx_diagrams",
+    "jupyter_sphinx",
 ]
 
 templates_path = ['_templates']
@@ -67,7 +70,7 @@ html_theme_options = {
     # If True, show hidden TOC entries
     'globaltoc_includehidden': False,
 }
-html_logo = '_static/logo.svg'
+html_logo = '_static/logo-white.svg'
 html_static_path = ['_static']
 html_sidebars = {
     "**": ["logo-text.html", "globaltoc.html", "localtoc.html", "searchbox.html"]
