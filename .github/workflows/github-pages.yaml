@@ -10,13 +10,14 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-      SPHINX_GITHUB_CHANGELOG_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     permissions:
       pages: write
       id-token: write
     steps:
     - id: deployment
       uses: sphinx-notes/pages@v3
+      env:
+        SPHINX_GITHUB_CHANGELOG_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         documentation_path: ./src/main/doc
         requirements_path: ./src/main/doc/requirements.txt
