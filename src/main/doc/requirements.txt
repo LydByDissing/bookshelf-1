@@ -19,4 +19,3 @@ sphinx-last-updated-by-git>=0.3.2
 sphinx-github-changelog>=1.2.0
 myst-parser>=0.18.0
 sphinx-material>=0.0.35
-jupyter_sphinx>=0.4.0

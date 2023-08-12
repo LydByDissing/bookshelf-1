@@ -28,8 +28,6 @@ extensions = [
     'sphinx_last_updated_by_git',
     #'sphinx_github_changelog',
     #'sphinx_ext_substitution',
-    "sphinx_diagrams",
-    "jupyter_sphinx",
 ]
 
 templates_path = ['_templates']
@@ -69,6 +67,9 @@ html_theme_options = {
     'globaltoc_collapse': False,
     # If True, show hidden TOC entries
     'globaltoc_includehidden': False,
+
+    'html_minify': True,
+    'css_minify': True,
 }
 html_logo = '_static/logo-white.svg'
 html_static_path = ['_static']
