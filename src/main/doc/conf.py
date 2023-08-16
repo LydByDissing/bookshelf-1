@@ -13,13 +13,19 @@ author = 'Tue Dissing'
 release = 'v0.1'
 
 
+# Provide a GitHub API token:
+# Pass the SPHINX_GITHUB_CHANGELOG_TOKEN environment variable to your build
+# OR
+# sphinx_github_changelog_token
+
+
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
     'rst2pdf.pdfbuilder',
-    #'sphinx_charts.charts',
+    'sphinx_charts.charts',
     #'sphinx.ext.todo',
     'sphinx.ext.autosectionlabel',
     #'sphinx-favicon',
@@ -70,8 +76,8 @@ html_theme_options = {
     # If True, show hidden TOC entries
     'globaltoc_includehidden': False,
 
-    'html_minify': True,
-    'css_minify': True,
+ #   'html_minify': True,
+#    'css_minify': True,
 }
 html_logo = '_static/logo-white.svg'
 html_static_path = ['_static']
