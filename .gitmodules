@@ -1,0 +1,3 @@
+[submodule "src/main/dependencies/sphinx-pcbdraw"]
+	path = src/main/dependencies/sphinx-pcbdraw
+	url = git@github.com:nobodywasishere/sphinx-pcbdraw.git
