@@ -3,14 +3,23 @@
 # For the full list of built-in configuration values, see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
+import os, sys
+from datetime import datetime
+
+sys.path.insert(0,"/Applications/KiCad/KiCad.app/Contents/Frameworks/Python.framework/Versions/Current/lib/python3.9/site-packages")
+import pcbnew
 
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'Bookshelf 1'
-copyright = '2023, Lyd by Dissing ApS'
+year = datetime.now().year
+copyright = u"%d, Lyd by Dissing ApS" % year
 author = 'Tue Dissing'
 release = 'v0.1'
+
+# Sphinx PCB Draw
+sys.path.append(os.path.abspath("../dependencies/sphinx-pcbdraw/sphinx_pcbdraw"))
 
 
 # Provide a GitHub API token:
@@ -35,6 +44,7 @@ extensions = [
     'sphinxemoji.sphinxemoji',
     'sphinx_last_updated_by_git',
     'sphinx_github_changelog',
+    'sphinx-pcbdraw',
     #'sphinx_ext_substitution',
 ]
 

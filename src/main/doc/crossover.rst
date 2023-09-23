@@ -8,6 +8,12 @@ We are going for a crossover frequence of around 2500Hz. This to keep a reasonab
 
 As seen in the driver measurements (can be downloaded below) the bass driver has various issues above the crossover frequency wich require us to ensure that these are lowered enough, to not make an audible impact in the tweeter section.
 
+.. toctree::
+  :caption: Documentation Sections
+  :maxdepth: 1
+
+  crossover/pcb-design.rst
+
 Crossover layout
 ================
 
