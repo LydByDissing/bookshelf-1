@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/tue/code/bookshelf-1/crossover/X-over for bookshelf-1/X-over for bookshelf-1.kicad_sch</source>
+    <date>2023-09-23T14:35:48 CEST</date>
+    <tool>Eeschema 7.0.7-7.0.7~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>X-over for bookshelf-1.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>12µF</value>
+      <footprint>Capacitor_THT:CP_Axial_L42.5mm_D20.0mm_P49.00mm_Horizontal</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="X-over for bookshelf-1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>27b5b9f3-83eb-402b-a68a-6f93b4dba1a6</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>47µF</value>
+      <footprint>Capacitor_THT:CP_Axial_L55.0mm_D35.0mm_P60.00mm_Horizontal</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="X-over for bookshelf-1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>70630525-c112-4fb4-a2b4-ccf12f091f1c</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>8µF</value>
+      <footprint>Capacitor_THT:CP_Axial_L42.5mm_D20.0mm_P49.00mm_Horizontal</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="X-over for bookshelf-1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5dd4833c-a5bd-4169-8d54-600c442aef41</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>Connector_Wire:SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="X-over for bookshelf-1.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2d45dcdf-0075-4328-b432-1c8d0c71d40e</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Screw_Terminal_01x04</value>
+      <footprint>Connector_Wire:SolderWire-0.5sqmm_1x04_P4.6mm_D0.9mm_OD2.1mm</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x04" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="X-over for bookshelf-1.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>19059ab6-38b4-4d53-b44d-4175944b051c</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>1,5mH</value>
+      <footprint>Inductor_THT:L_Radial_D24.4mm_P23.90mm_Murata_1400series</footprint>
+      <libsource lib="Device" part="L_Ferrite" description="Inductor with ferrite core"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="X-over for bookshelf-1.kicad_sch"/>
+      <property name="ki_description" value="Inductor with ferrite core"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e2e0a7ae-61e1-4935-a5db-cb47505b1322</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>0,22mH</value>
+      <footprint>Inductor_THT:L_Radial_D40.6mm_P26.16mm_Vishay_IHB-5</footprint>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="X-over for bookshelf-1.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d3145ee8-2120-411b-8a5d-51538d395b19</tstamps>
+    </comp>
+    <comp ref="L3">
+      <value>0,1mH</value>
+      <footprint>Inductor_THT:L_Radial_D50.8mm_P33.27mm_Vishay_IHB-6</footprint>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="X-over for bookshelf-1.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>57914401-75fc-4ca0-a892-8d19be672952</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1,8Ω</value>
+      <footprint>Resistor_THT:R_Axial_Power_L48.0mm_W12.5mm_P60.96mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="X-over for bookshelf-1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f7788f30-6349-4eaa-affe-ebdd2a7864b6</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>2,7Ω</value>
+      <footprint>Resistor_THT:R_Axial_Power_L48.0mm_W12.5mm_P60.96mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="X-over for bookshelf-1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2d376c12-9675-4b4b-801f-8683ebed0f25</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x04">
+      <description>Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L_Ferrite">
+      <description>Inductor with ferrite core</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Ferrite</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="L3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="2" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="3" name="Net-(J1-Pin_1)">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(J1-Pin_2)">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(J2-Pin_1)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(J2-Pin_2)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(J2-Pin_4)">
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(L3-Pad2)">
+      <node ref="L3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+  </nets>
+</export>
