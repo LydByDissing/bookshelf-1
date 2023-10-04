@@ -6,9 +6,6 @@
 import os, sys
 from datetime import datetime
 
-sys.path.insert(0,"/Applications/KiCad/KiCad.app/Contents/Frameworks/Python.framework/Versions/Current/lib/python3.9/site-packages")
-import pcbnew
-
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
@@ -19,7 +16,7 @@ author = 'Tue Dissing'
 release = 'v0.1'
 
 # Sphinx PCB Draw
-sys.path.append(os.path.abspath("../dependencies/sphinx-pcbdraw/sphinx_pcbdraw"))
+#sys.path.append(os.path.abspath("../dependencies/sphinx-pcbdraw/sphinx_pcbdraw"))
 
 
 # Provide a GitHub API token:
@@ -44,7 +41,7 @@ extensions = [
     'sphinxemoji.sphinxemoji',
     'sphinx_last_updated_by_git',
     'sphinx_github_changelog',
-    'sphinx-pcbdraw',
+    #'sphinx-pcbdraw',
     #'sphinx_ext_substitution',
 ]
 
