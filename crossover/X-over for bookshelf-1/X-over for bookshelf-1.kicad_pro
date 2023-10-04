@@ -55,7 +55,17 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|122174999|31862745|32f62b26-3038-4eae-ae96-d20619d4979b|a5a05616-cf0c-4385-bb5b-f0fb81f9e7a3",
+        "courtyards_overlap|128063325|25150001|32f62b26-3038-4eae-ae96-d20619d4979b|f1081633-e334-44db-a25f-812cf41a25de",
+        "courtyards_overlap|144414964|32320218|5254685a-9b5c-43d8-9d3c-9dda909b857c|f1081633-e334-44db-a25f-812cf41a25de",
+        "courtyards_overlap|144414964|52640218|f9eb8d20-3349-40a6-b49e-fd35c99bf1dc|f1081633-e334-44db-a25f-812cf41a25de",
+        "courtyards_overlap|167274964|128840218|98c7f7fe-4f30-4aba-97a6-4cbd1c6ce0ad|78809acc-c3a2-45ef-a4d7-bc6a3bc85569",
+        "courtyards_overlap|182514964|118680218|0bab7765-585f-48fa-96d7-fe1ee1e8bdb0|78809acc-c3a2-45ef-a4d7-bc6a3bc85569",
+        "courtyards_overlap|75834964|24700218|53f98a15-0b74-453d-95c4-86ab83c8bb30|a5a05616-cf0c-4385-bb5b-f0fb81f9e7a3",
+        "courtyards_overlap|96154964|45020218|e7123015-8a71-4e04-8650-2c2bc4fed5ab|a5a05616-cf0c-4385-bb5b-f0fb81f9e7a3",
+        "silk_over_copper|72938326|106170595|3addeb9c-4966-491c-ba0d-bfedb7e4a849|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -441,7 +451,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "X-over for bookshelf-1.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
