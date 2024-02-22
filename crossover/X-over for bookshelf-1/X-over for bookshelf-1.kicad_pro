@@ -444,7 +444,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "X-over for bookshelf-1.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
